@@ -1,3 +1,7 @@
+## 2.4.0 (2025-08-18)
+
+For the cop `Style/HashSyntax`, set the `EnforcedShorthandSyntax` option to `always`.
+
 ## 2.3.0 (2025-03-27)
 
 Migrate rubocop-performance and rubocop-rspec to use RuboCop plugin feature.
