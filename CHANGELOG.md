@@ -1,3 +1,10 @@
+## 3.0.0 (2026-01-28)
+
+Split rubocop.yml into two files to support non-Rails projects:
+
+- default.yml (cops that apply to all projects)
+- rails.yml (cops that only apply to Rails projects)
+
 ## 2.4.0 (2025-08-18)
 
 For the cop `Style/HashSyntax`, set the `EnforcedShorthandSyntax` option to `always`.
