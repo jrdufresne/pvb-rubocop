@@ -11,11 +11,16 @@ $ bundle add rubocop --group=development
 $ bundle add rubocop-performance --group=development
 ```
 
+For RSpec projects:
+
+```console
+$ bundle add rubocop-rspec --group=development
+```
+
 For Rails projects:
 
 ```console
 $ bundle add rubocop-factory_bot --group=development
-$ bundle add rubocop-rspec --group=development
 ```
 
 ## Usage
@@ -25,6 +30,13 @@ Add the following to the `rubocop.yml` file:
 ```yaml
 inherit_gem:
   pvb-rubocop: default.yml
+```
+
+For RSpec projects:
+
+```yaml
+inherit_gem:
+  pvb-rubocop: rspec.yml
 ```
 
 For Rails projects:

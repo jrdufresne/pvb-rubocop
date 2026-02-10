@@ -1,3 +1,12 @@
+## 3.1.0 (2026-02-10)
+
+Make an intermediate file for RSpec projects. There are now 3 different project
+types:
+
+- default.yml (cops that apply to all projects)
+- rspec.yml (cops that only apply to RSpec projects)
+- rails.yml (cops that only apply to Rails projects)
+
 ## 3.0.0 (2026-01-28)
 
 Split rubocop.yml into two files to support non-Rails projects:
